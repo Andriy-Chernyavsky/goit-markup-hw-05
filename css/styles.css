@@ -459,6 +459,10 @@ ol {
   background-color: #31d0aa;
 }
 
+.third-collon {
+  margin-left: 80px;
+}
+
 .third-collon-text {
   margin-bottom: 16px;
   font-weight: 500;
@@ -705,4 +709,6 @@ input::placeholder {
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  align-items: center;
+  justify-content: center;
 }
