@@ -459,6 +459,62 @@ ol {
   background-color: #31d0aa;
 }
 
+.third-collon-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.foot-form {
+  display: flex;
+  gap: 24px;
+}
+
+.email-foot-form {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+}
+
+input::placeholder {
+  color: #ffffff;
+}
+
+.foot-form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  min-width: 165px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 8px 24px;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+}
+
+.foot-telegram {
+  margin-left: 16px;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
