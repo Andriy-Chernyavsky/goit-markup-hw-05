@@ -515,6 +515,11 @@ input::placeholder {
   border: none;
 }
 
+.foot-form-btn:focus,
+.foot-form-btn:hover {
+  background: #404bbf;
+}
+
 .foot-telegram {
   margin-left: 16px;
 }
@@ -621,6 +626,7 @@ input::placeholder {
   outline: transparent;
   border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 12px;
 }
 .form-input:focus {
   border-color: #4d5ae5;
@@ -669,6 +675,11 @@ input::placeholder {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
+
+.check-text-span {
+  margin-right: 8px;
+}
+
 .check-text span {
   width: 16px;
   height: 16px;
@@ -690,6 +701,10 @@ input::placeholder {
   fill: #f4f4fd;
 }
 
+.modal-check:focus + .check-text span {
+  border-color: #4d5ae5;
+}
+
 .privacy-policy {
   color: #4d5ae5;
 }
@@ -708,6 +723,11 @@ input::placeholder {
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  align-items: center;
-  justify-content: center;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.form-send-btn:focus,
+.form-send-btn:hover {
+  background: #404bbf;
 }
